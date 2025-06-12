@@ -65,6 +65,7 @@ jobs:
 
       - name: Unzip artifact for deployment
         run: unzip release.zip
+        working-directory: recommendation_system
 
       
       - name: Login to Azure
